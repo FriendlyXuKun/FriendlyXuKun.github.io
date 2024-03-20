@@ -1,0 +1,11 @@
+.cls-1,
+.cls-2 {
+    fill: #4cbf56;
+    stroke: #45993d;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.cls-2 {
+    stroke-width: 1.5px;
+}

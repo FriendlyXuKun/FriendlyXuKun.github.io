@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FriendlyXuKun_Calculator</title>
+    <link rel="stylesheet" type="text/css" href="../Css/style_004.css">
+    <link rel="stylesheet" type="text/css" href="../Css/logo_img.css">
+    <link rel="icon" href="../Img/ProfilePhoto.jpg" type="x-icon">
+</head>
+
+<body>
+    <div class="card">
+        <a href="../index.html">
+            <img src="../Img/ProfilePhoto.jpg" alt="Home" width="100" height="100" class="img">
+        </a>
+    </div>
+    <div style="height: 100px; width: 100%;"></div>
+    <div class="calculator">
+        <div class="display"></div>
+        <div class="button" onclick="addToDisplay('(')">(</div>
+        <div class="button" onclick="addToDisplay(')')">)</div>
+        <div class="button clear" onclick="clearDisplay()">C</div>
+        <div class="button equal" onclick="calculate()">=</div>
+        <div class="button" onclick="addToDisplay('7')">7</div>
+        <div class="button" onclick="addToDisplay('8')">8</div>
+        <div class="button" onclick="addToDisplay('9')">9</div>
+        <div class="button" onclick="addToDisplay('+')">+</div>
+        <div class="button" onclick="addToDisplay('4')">4</div>
+        <div class="button" onclick="addToDisplay('5')">5</div>
+        <div class="button" onclick="addToDisplay('6')">6</div>
+        <div class="button" onclick="addToDisplay('-')">-</div>
+        <div class="button" onclick="addToDisplay('1')">1</div>
+        <div class="button" onclick="addToDisplay('2')">2</div>
+        <div class="button" onclick="addToDisplay('3')">3</div>
+        <div class="button" onclick="addToDisplay('*')">×</div>
+        <div class="button" onclick="backspace()">←</div>
+        <div class="button" onclick="addToDisplay('0')">0</div>
+        <div class="button" onclick="addToDisplay('.')">.</div>
+        <div class="button" onclick="addToDisplay('/')">÷</div>
+        <!-- 
+                
+                 -->
+    </div>
+    <script src="../Js/calculator.js"></script>
+</body>
+
+</html>
